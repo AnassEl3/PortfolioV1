@@ -1,0 +1,39 @@
+//importing the smallNav hamburger animation (www.jonsuh.com/hamburgers)
+$hamburger-layer-color: rgb(255, 255, 255);
+$hamburger-hover-opacity: 1;
+@import "hamburgers/_sass/hamburgers/hamburgers.scss";
+
+.Navigation{
+    a{
+        font-family: "raleway-bold";
+        
+    }
+    a:hover{
+        background-color: #31132D;
+    }
+
+    .lng{
+        background-color: rgb(141, 141, 141);
+        height: 34px;
+        .lngImg{
+            width: 50px;
+            height: 50px;
+            
+        }
+        .lngText{
+            h5{
+                font-family: "raleway-bold";
+                font-size: 0.9em;
+            }
+        }
+
+        
+    }
+
+    #smallNavContent{
+        top: 50px;
+        a:hover{
+            background-color: #d6ab89;
+        }
+    }
+}

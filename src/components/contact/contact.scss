@@ -1,0 +1,41 @@
+.Contact{
+    scroll-margin: 80px;
+    h1{
+        font-family: "raleway-black";
+        letter-spacing: 5px;
+    }
+    .contactText{
+        max-width: 500px;
+        p{
+            font-family: "raleway-light";
+            
+        }
+        .bold{
+            font-family: "raleway-bold";
+        }
+        .italic{
+            font-family: "raleway-extralightitalic";
+            letter-spacing: 2px;
+        }
+        
+    }
+    .contactNote{
+        p{
+            font-family: "raleway-light";
+        }
+    }
+    .contactForm{
+        overflow: hidden;
+        transition: height 1s;
+        textarea{
+            min-height: 50px;
+            max-height: 300px;
+            height: 150px;
+        }
+        .contactSend{
+            font-family: "raleway-bold";
+            letter-spacing: 3px;
+            font-size: 1.3em;
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.Project{
+    .infos{
+        .title{
+            font-family: "raleway-medium";
+            font-size: 1.5em;
+        }
+        .date{
+            font-family: "raleway-light";
+            font-size: 1.1em;
+        }
+
+        .techContainer{
+            .techs{
+                h5{
+                    font-family: "raleway-bold";
+                    font-size: 0.8em;
+                }
+            }
+        }
+
+    }
+
+    .imags{
+        .imgsDisplayer{
+            border-radius: 10px;
+            max-width: 400px;
+            height: 250px;
+            overflow: hidden;
+
+        
+        }
+    }
+
+    .desc{
+        textarea{
+            resize: none;
+            height: auto;
+            height: 150px;
+        }
+    }
+
+    .links{
+        a{
+            font-family: "raleway-bold";
+            font-size: 1.2em;
+            letter-spacing: 2px;
+        }
+    }
+}

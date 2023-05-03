@@ -1,0 +1,30 @@
+.Header{
+    height: 100vh;
+    .headerBackground{
+        background-image: url("./media//background.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        filter: blur(0.1px);
+        width: 100%;
+        height: 100%;
+        
+    }
+    .headerContent{
+        h1{
+            font-family: "raleway-extrabold";
+            span{
+                font-family: "raleway-blackitalic";
+            }
+        }
+        h2{
+            font-family: "raleway-extralight";
+            span{
+                font-family: "raleway-bold";
+            }
+            
+        }
+    }
+}
+
+
